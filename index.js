@@ -33,7 +33,7 @@ async function mainMenu() {
       choices
     });
   
-    // Switches of  statements and showing different tables
+    // Switches among  statements then showing different tables
     switch (action) {
       case 'View All Departments':
         return viewAllDepartments();
